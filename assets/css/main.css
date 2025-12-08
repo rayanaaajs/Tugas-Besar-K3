@@ -1043,7 +1043,7 @@ section,
 # Services Section
 --------------------------------------------------------------*/
 .services .service-item {
-  background-color: var(--accent-color);
+  background-color: color-mix(in srgb, var(--accent-color), transparent 50%) ;
   text-align: center;
   border: 1px solid color-mix(in srgb, var(--default-color), transparent 85%);
   padding: 80px 20px;
@@ -1052,8 +1052,8 @@ section,
 }
 
 .services .service-item .icon {
-  background: var(--accent-color);
-  color: var(--contrast-color);
+  background: var(--background-color);
+  color: var(--accent-color);
   margin: 0 auto;
   width: 64px;
   height: 64px;
