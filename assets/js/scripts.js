@@ -78,13 +78,13 @@ const dataJSON = {
     },
     {
       id: 13,
-      filename: "sop_lingkungan_tambang.html",
+      filename: "sop_pengelolaan_lingkungan_tambang.html",
       judul_lengkap: "SOP Pengelolaan Lingkungan Tambang",
       icon: "leaf",
     },
     {
       id: 14,
-      filename: "sop_workshop_welding.html",
+      filename: "sop_workshop_&_welding_safety.html",
       judul_lengkap: "SOP Workshop & Welding Safety",
       icon: "gear",
     },
