@@ -2,7 +2,7 @@ const dataJSON = {
   sop_list: [
     {
       id: 1,
-      filename: "sop_kontraktor_k3",
+      filename: "sop_kontraktor_k3.html",
       judul_lengkap: "SOP K3 Bagi Kontraktor",
       icon: "activity",
     },
