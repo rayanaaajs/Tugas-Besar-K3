@@ -129,3 +129,29 @@ function cardSOP(sopArray) {
 }
 
 cardSOP(dataJSON.sop_list);
+
+// Hide animation maps in footer on mobile
+var FooterMaps = document.getElementById("footerMaps");
+
+function updateAOSFooter() {
+  console.log("Window width:", window.innerWidth);
+
+  if (window.innerWidth < 768) {
+    // Mobile: tambahkan data-aos
+    FooterMaps.setAttribute("data-aos", "fade-up");
+  } else {
+    // Desktop: hapus data-aos
+    FooterMaps.removeAttribute("data-aos");
+  }
+
+  console.log("Current attribute:", FooterMaps.getAttribute("data-aos"));
+}
+
+// Jalankan saat pertama kali load
+document.addEventListener("DOMContentLoaded", updateAOSFooter);
+
+// Update saat resize window
+window.addEventListener("resize", updateAOSFooter);
+
+// Optional: update saat orientation change (untuk mobile)
+window.addEventListener("orientationchange", updateAOSFooter);
