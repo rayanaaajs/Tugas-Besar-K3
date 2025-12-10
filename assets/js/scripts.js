@@ -80,7 +80,7 @@ const dataJSON = {
       id: 13,
       filename: "sop_pengelolaan_lingkungan_tambang.html",
       judul_lengkap: "SOP Pengelolaan Lingkungan Tambang",
-      icon: "leaf",
+      icon: "tree",
     },
     {
       id: 14,
